@@ -122,38 +122,37 @@
         }
       }
     },
-    "ngx-s3-uploader": {
-      "root": "projects/ngx-s3-uploader",
-      "sourceRoot": "projects/ngx-s3-uploader/src",
+    "ng6-s3-uploader": {
+      "root": "projects/ng6-s3-uploader",
+      "sourceRoot": "projects/ng6-s3-uploader/src",
       "projectType": "library",
-      "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ngx-s3-uploader/tsconfig.lib.json",
-            "project": "projects/ngx-s3-uploader/ng-package.json"
+            "tsConfig": "projects/ng6-s3-uploader/tsconfig.lib.json",
+            "project": "projects/ng6-s3-uploader/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/ngx-s3-uploader/ng-package.prod.json"
+              "project": "projects/ng6-s3-uploader/ng-package.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-s3-uploader/src/test.ts",
-            "tsConfig": "projects/ngx-s3-uploader/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-s3-uploader/karma.conf.js"
+            "main": "projects/ng6-s3-uploader/src/test.ts",
+            "tsConfig": "projects/ng6-s3-uploader/tsconfig.spec.json",
+            "karmaConfig": "projects/ng6-s3-uploader/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-s3-uploader/tsconfig.lib.json",
-              "projects/ngx-s3-uploader/tsconfig.spec.json"
+              "projects/ng6-s3-uploader/tsconfig.lib.json",
+              "projects/ng6-s3-uploader/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

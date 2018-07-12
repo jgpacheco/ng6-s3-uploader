@@ -1,7 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-s3-uploader",
-  "deleteDestPath": false,
+  "dest": "../../dist/ng6-s3-uploader",
   "lib": {
     "entryFile": "src/public_api.ts"
   }

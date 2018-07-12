@@ -1,21 +1,23 @@
-# ngx-s3-uploader
+# ng6-s3-uploader
 
 [![NPM version][npm-version-image]][npm-url] [![MIT License][license-image]][license-url]
 
 The library is inspired by [AngularJS To S3 Upload App][angular-s3-upload-url]
+
+For Angular 5 and below, use [ngx-s3-uploader][ngx-s3-uploader-url]
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install ngx-s3-uploader --save
+$ npm install ng6-s3-uploader --save
 ```
 
 ## Usage
 
 ```typescript
-    import { S3UploaderModule } from 'ngx-s3-uploader';
+    import { S3UploaderModule } from 'ng6-s3-uploader';
 
     @NgModule({
         imports: [
@@ -37,7 +39,7 @@ While it is possible to do so, we recommend you not hard code credentials inside
 The recommended way to obtain AWS credentials for your browser scripts is to use the Amazon Cognito Identity credentials. See [Identity Pools][aws-docs-identity-pools] for instructions to create identity pools.
 
 ```typescript
-    import { S3UploaderModule } from 'ngx-s3-uploader';
+    import { S3UploaderModule } from 'ng6-s3-uploader';
 
     @NgModule({
         imports: [
@@ -55,7 +57,7 @@ The recommended way to obtain AWS credentials for your browser scripts is to use
 Alternatively you can authenticate with the [Web Federated Identity][aws-docs-federated] method.
 
 ```typescript
-    import { S3UploaderModule } from 'ngx-s3-uploader';
+    import { S3UploaderModule } from 'ng6-s3-uploader';
 
     @NgModule({
         imports: [
@@ -91,7 +93,7 @@ A [map][aws-upload-property-url] containing:
 If you need direct access to the service you can inject it using Dependency Injection:
 
 ```typescript
-    import { S3UploaderService } from 'ngx-s3-uploader';
+    import { S3UploaderService } from 'ng6-s3-uploader';
 
     @Component({})
     export class AppComponent {
@@ -113,7 +115,7 @@ If you need direct access to the service you can inject it using Dependency Inje
 You can also use this service to update _logins_ when using Amazon Cognito Identity:
 
 ```typescript
-    import { S3UploaderService } from 'ngx-s3-uploader';
+    import { S3UploaderService } from 'ng6-s3-uploader';
 
     @Component({})
     export class AppComponent {
@@ -139,6 +141,7 @@ You can also use this service to update _logins_ when using Amazon Cognito Ident
 
 MIT © [Jaime](mailto:jaime.glez.pacheco@gmail.com)
 
+[ngx-s3-uploader-url]: https://github.com/jgpacheco/ngx-s3-uploader
 [angular-s3-upload-url]: https://github.com/cheynewallace/angular-s3-upload
 [aws-developer-guide-url]: http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started.html
 [aws-docs-iam-best-practices]: http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege.html
@@ -147,5 +150,6 @@ MIT © [Jaime](mailto:jaime.glez.pacheco@gmail.com)
 [aws-upload-property-url]: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#upload-property
 [license-image]: https://img.shields.io/npm/l/express.svg?style=flat
 [license-url]: LICENSE
-[npm-url]: https://www.npmjs.com/package/ngx-s3-uploader
-[npm-version-image]: https://badge.fury.io/js/ngx-s3-uploader.svg
+[npm-url]: https://www.npmjs.com/package/ng6-s3-uploader
+[npm-version-image]: https://img.shields.io/npm/v/npm.svg
+

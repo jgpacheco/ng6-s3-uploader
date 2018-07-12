@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-s3-uploader": [
-        "dist/ngx-s3-uploader"
+      "ng6-s3-uploader": [
+        "dist/ng6-s3-uploader"
       ],
-      "ngx-s3-uploader/*": [
-        "dist/ngx-s3-uploader/*"
+      "ng6-s3-uploader/*": [
+        "dist/ng6-s3-uploader/*"
       ]
     }
   }

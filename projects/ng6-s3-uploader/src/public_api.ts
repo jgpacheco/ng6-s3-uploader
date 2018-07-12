@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-s3-uploader
+ * Public API Surface of ng6-s3-uploader
  */
 
 export * from './lib/s3-uploader.service';
