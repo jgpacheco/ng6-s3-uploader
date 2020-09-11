@@ -1,10 +1,11 @@
+
+# This repository is no longer maintained. Use [ngx-s3-uploader][ngx-s3-uploader-url] instead.
+
 # ng6-s3-uploader
 
 [![NPM version][npm-version-image]][npm-url] [![MIT License][license-image]][license-url]
 
 The library is inspired by [AngularJS To S3 Upload App][angular-s3-upload-url]
-
-For Angular 5 and below, use [ngx-s3-uploader][ngx-s3-uploader-url]
 
 ## Installation
 
