@@ -152,5 +152,5 @@ MIT © [Jaime](mailto:jaime.glez.pacheco@gmail.com)
 [license-image]: https://img.shields.io/npm/l/express.svg?style=flat
 [license-url]: LICENSE
 [npm-url]: https://www.npmjs.com/package/ng6-s3-uploader
-[npm-version-image]: https://img.shields.io/npm/v/npm.svg
+[npm-version-image]: https://badge.fury.io/js/ng6-s3-uploader.svg
 
